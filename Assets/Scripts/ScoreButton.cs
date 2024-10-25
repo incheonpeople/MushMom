@@ -7,6 +7,7 @@ public class ScoreButton : MonoBehaviour
     public Button scoreButton;        // 버튼 연결
     public int score = 0;             // 점수를 저장하는 변수
     public Action<int> OnScoreChanged; // 점수 변경을 알리는 이벤트
+    public AnimationController animationController; // 애니메이션 제어 변수
 
     void Awake()
     {
